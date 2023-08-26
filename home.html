@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.xyz/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+  <main>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">SMART LOGIN</a>
+          <button style="border: none;" class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+              <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                  <li class="nav-item">
+                      <a class="fw-medium btn btn-light w-100" onclick="removeUser()" id="logout" >Logout <span class="visually-hidden">(current)</span></a>
+                  </li>
+                  
+              </ul>
+          </div>
+    </div>
+  </nav>
+    <section class="d-flex align-items-center justify-content-center min-vh-100">
+        
+      <div class="text-warning">
+        <div class="container text-center">
+          <h1 style="font-size: 45px;" id="demo"></h1>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+
+</body>
+</html>
